@@ -97,4 +97,47 @@
     margin-bottom: 30px;
 }
 
+/* ------lehengga----- */
+#weman-lehengga{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* -----------------weman top----------- */
+.card-img-top{
+    cursor: pointer;
+}
+#weman-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.top-p{
+    color: red;
+    font-size: 25px;
+    font-weight: 400;
+}
+.top-pp{
+    color: green;
+    font-size: 20px;
+}
+.top-ppp{
+    color: rgb(240, 6, 6);
+    font-size: 23px;font-weight: bold;
+}
+.top-btn{
+    border: 2px solid green;
+    border-radius: 2em;
+    background-color: green;
+    color: aliceblue;
+    padding: 8px 7px;
+    transition: 0.4s ease all;
+}
+.top-btn:hover{
+    background-color: #180a7a;
+}
 
+/* ----man-shart------ */
+
+#man-shart{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
