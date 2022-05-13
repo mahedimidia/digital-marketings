@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: purple, sans-serif;
 }
 .logo{
     background-color: #090D1C;
@@ -26,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle, rgba(28,208,208,1) 0%, rgba(23,66,190,1) 100%);
+    background: radial-gradient(circle, rgba(28,208,208,1) 0%, rgb(29, 190, 23) 100%);
 }
 .navb li{
  list-style: none;
@@ -37,7 +35,7 @@
  display: inline-block;
 }
 .navb li a{
-    color:  orange;
+    color:  rgb(0, 81, 255);
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
@@ -140,4 +138,31 @@
 #man-shart{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* -----footer------- */
+
+#footer{
+    min-width: 100%;
+    min-height: 300px;
+    height: auto;
+}
+.fa-brands{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: #180a7a;
+}
+.footer-ul a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.footer-ul a:hover{
+    color: #230bbc;
 }
